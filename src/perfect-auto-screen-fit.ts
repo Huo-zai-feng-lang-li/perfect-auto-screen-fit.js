@@ -98,10 +98,10 @@ export default {
 	// 防抖函数
 	debounce(func: Function, wait: number): () => void {
 		let timeout: number | null = null;
-		return function () {
+		return (...args: any[]) => {
 			clearTimeout(timeout ?? 0);
 			timeout = window.setTimeout(() => {
-				func.apply(this, arguments);
+				func.apply(this, args);
 			}, wait) as unknown as number;
 		};
 	},
