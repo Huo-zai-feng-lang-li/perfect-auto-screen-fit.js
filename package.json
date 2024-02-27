@@ -1,7 +1,7 @@
 {
   "name": "perfect-auto-screen-fit.js",
   "version": "1.1.0",
-  "description": "perfect-auto-screen-fit.js 🎉,近乎于完美的大屏自适应方案、代价最低的方案、浸入性最少",
+  "description": "perfect-auto-screen-fit.js 🎉,迄今为止 最易用 的自适应工具、大屏自适应方案、代价最低的方案、浸入性最少",
   "main": "lib/perfect-auto-screen-fit.js",
   "scripts": {
     "commit": "git pull && git add -A && git-cz && git push",
@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/huozaifenlangli/perfect-auto-screen-fit.js.git"
   },
   "bugs": {
-    "url": "https://github.com/huozaifenlangli/vue3-directive-tool/issues"
+    "url": "https://github.com/huozaifenlangli/perfect-auto-screen-fit.js.git/issues"
   },
   "engines": {
     "node": ">=16.0.0",
@@ -30,7 +30,7 @@
   "dependencies": {
     "cz-conventional-changelog": "^3.3.0"
   },
-  "homepage": "https://jshub.cn",
+  "homepage": "https://github.com/huozaifenlangli",
   "keywords": [
     "大屏",
     "自适应",
