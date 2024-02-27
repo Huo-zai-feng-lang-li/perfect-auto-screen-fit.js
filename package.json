@@ -1,0 +1,60 @@
+{
+  "name": "perfect-auto-screen-fit.js",
+  "version": "1.1.0",
+  "description": "perfect-auto-screen-fit.js 🎉,近乎于完美的大屏自适应方案、代价最低的方案、浸入性最少",
+  "main": "lib/perfect-auto-screen-fit.js",
+  "scripts": {
+    "commit": "git pull && git add -A && git-cz && git push",
+    "tsc": "tsc -w -p tsconfig.json",
+    "tsc:default": "tsc -w --outDir lib src/perfect-auto-screen-fit.ts"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/huozaifenlangli/vue3-directive-tool/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">= 7.0.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "dependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "homepage": "https://jshub.cn",
+  "keywords": [
+    "大屏",
+    "自适应",
+    "可视化",
+    "适配",
+    "autofit",
+    "scaling",
+    "responsive",
+    "screenFit",
+    "vue3",
+    "vue2",
+    "ts",
+    "js",
+    "vue",
+    "react",
+    "echarts",
+    "auto-zoom",
+    "perfect-auto-screen-fit",
+    "auto-fit",
+    "vue-perfect-auto-screen-fit",
+    "fit",
+    "vue-fit",
+    "perfect-auto-screen-fit.js"
+  ],
+  "author": "Zhang",
+  "license": "MIT"
+}
