@@ -7,7 +7,7 @@ interface AutofitOptions {
 	delay?: number; // 延迟应用缩放的时间，默认0
 	limit?: number; // 缩放比例下限，默认0.1，防止过小
 }
-export default {
+const autofit = {
 	currRenderDom: null as string | null, // 当前渲染的DOM元素选择器
 	currScale: 1, // 当前缩放比例
 	resizeListener: null as (() => void) | null, // 窗口大小变化监听函数
@@ -73,9 +73,7 @@ export default {
 			() => this.keepFit(dw, dh, dom, limit),
 			delay
 		);
-		this.resizeListener = () => {
-			debouncedResize();
-		};
+		this.resizeListener = () => debouncedResize();
 		window.addEventListener("resize", this.resizeListener, { passive: true });
 	},
 
@@ -126,3 +124,4 @@ export default {
 		);
 	},
 };
+export default autofit;
