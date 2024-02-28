@@ -6,6 +6,7 @@
 
 <p align="center">
   <h3 align="center">perfect-auto-screen-fit.js</h3>
+  <p align="center" style="font-size:14px">路虽远行则将至，事虽难做则必成！</p>
 </p>
 
 简体中文 | [English](./readme.en.md)
@@ -13,6 +14,12 @@
 ### perfect-auto-screen-fit.js
 
 迄今为止 **_最易用_** 的自适应工具、大屏自适应方案、代价最低的方案、浸入性最少
+
+### 安装
+
+```js
+npm install perfect-auto-screen-fit.js
+```
 
 ### 引入
 

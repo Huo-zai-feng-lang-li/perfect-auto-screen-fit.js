@@ -1,6 +1,6 @@
 {
   "name": "perfect-auto-screen-fit.js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "perfect-auto-screen-fit.js 🎉,迄今为止 最易用 的自适应工具、大屏自适应方案、代价最低的方案、浸入性最少",
   "main": "lib/perfect-auto-screen-fit.js",
   "scripts": {
